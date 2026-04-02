@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="[schemas.android.com](http://schemas.android.com/apk/res/android)"
+    package="com.londonjobs.elevenplusfc">
+
+    <application
+        android:name=".ElevenPlusFCApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ElevenPlusFC"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.DynamicColors.DayNight.NoActionBar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
